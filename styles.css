@@ -1,0 +1,60 @@
+/* styles.css - separated stylesheet */
+body {
+  background: linear-gradient(#f9fafb, #eef2ff);
+  color: #1e293b;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+header {
+  background: #1e3a8a;
+  color: white;
+  padding: 1.5rem 0;
+  box-shadow: 0 4px 14px rgba(30,58,138,0.25);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.hover-card {
+  border-radius: 14px;
+  overflow: hidden;
+  transition: all 200ms ease;
+  border: none;
+  background: white;
+}
+
+.hover-card:hover {
+  transform: translateY(-7px) scale(1.02);
+  box-shadow: 0 14px 32px rgba(0,0,0,0.08);
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.12rem;
+  color: #1e3a8a;
+}
+
+.card-text {
+  color: #475569;
+}
+
+.card-footer small {
+  color: #64748b !important;
+}
+
+footer {
+  background: #f1f5f9;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  padding: 1.4rem 0;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 575.98px) {
+  header .container {
+    text-align: center;
+  }
+}
